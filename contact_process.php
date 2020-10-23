@@ -15,7 +15,7 @@
 
     $subject = "Portfolio Message - " . $csubject;
 
-    $logo = 'img/favicon.png';
+    $logo = 'https://www.abdullahalmamun.xyz/img/favicon.png';
     $link = 'https://www.abdullahalmamun.xyz';
 
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
