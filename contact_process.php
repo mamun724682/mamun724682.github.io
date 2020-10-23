@@ -13,10 +13,10 @@
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    $subject = "You have a message from your Portfolio site.";
+    $subject = "Portfolio Message - " . $subject;
 
-    $logo = 'img/logo.png';
-    $link = '#';
+    $logo = 'img/favicon.png';
+    $link = 'https://www.abdullahalmamun.xyz';
 
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
 	$body .= "<table style='width: 100%;'>";
