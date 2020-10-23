@@ -3,7 +3,7 @@
     $to = "mamun167359@gmail.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
-    $subject = $_REQUEST['subject'];
+    $csubject = $_REQUEST['subject'];
     $number = $_REQUEST['number'];
     $cmessage = $_REQUEST['message'];
 
@@ -13,7 +13,7 @@
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    $subject = "Portfolio Message - " . $subject;
+    $subject = "Portfolio Message - " . $csubject;
 
     $logo = 'img/favicon.png';
     $link = 'https://www.abdullahalmamun.xyz';
